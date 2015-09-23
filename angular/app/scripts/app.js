@@ -29,6 +29,11 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/video', {
+        templateUrl: 'views/video.html',
+        controller: 'VideoCtrl',
+        controllerAs: 'video'
+      })
       .otherwise({
         redirectTo: '/'
       });
